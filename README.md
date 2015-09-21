@@ -10,13 +10,16 @@ FP-Growth is one of the most classical algorithms in the association analysis.An
   * tree_miner.py
 
 <br>
-"\__init__.py":This file is calling the other files to build the FP-Tree and to mine frequent itemsets on FP_Tree.And also,we are inputting transaction datasets and setting the minimum support count here.
+**"\__init__.py"**:This file is calling the other files to build the FP-Tree and to mine frequent itemsets on FP_Tree.And also,we are inputting transaction datasets and setting the minimum support count here.
+
 <br>
-"tree_builder.py":This file is responsible for processing the transaction datasets and calling "tree_building.py" to build the FP_Tree.
+**"tree_builder.py"**:This file is responsible for processing the transaction datasets and calling "tree_building.py" to build the FP_Tree.
+
 <br>
-"tree_building.py":This file is responsible for building the FP_Tree.
+**"tree_building.py"**:This file is responsible for building the FP_Tree.
+
 <br>
-"tree_miner.py":This file is used to mine the frequent itemsets based on the FP_Tree.
+**"tree_miner.py"**:This file is used to mine the frequent itemsets based on the FP_Tree.
 
 <br>
 <br>
@@ -29,8 +32,8 @@ routines = [
            ['Cola','Diaper','Beer'],
            ['Cola','Beer','Diaper','Ham'],
            ['Diaper','Beer']
-        ]                                 # transaction datasets
-min_sup = 2                             # the minimum support count
+        ]                          # transaction datasets
+min_sup = 2              # the minimum support count
 ......
 ```
 
