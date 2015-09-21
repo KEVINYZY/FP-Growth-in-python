@@ -19,7 +19,7 @@ FP-Growth is one of the most classical algorithms in the association analysis.An
 "**tree_miner.py**":This file is used to mine the frequent itemsets based on the FP_Tree.
 
 <br>
-<br>
+<br> 
 ##Result:##
 If the transaction datasets and min_sup that we input in "\__init__.py" like this:
 ```
