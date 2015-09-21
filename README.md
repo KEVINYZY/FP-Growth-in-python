@@ -8,6 +8,7 @@ FP-Growth is one of the most classical algorithms in the association analysis.An
   * tree_builder.py 
   * tree_building.py 
   * tree_miner.py
+
 <br>
 "\__init__.py":This file is calling the other files to build the FP-Tree and to mine frequent itemsets on FP_Tree.And also,we are inputting transaction datasets and setting the minimum support count here.
 <br>
@@ -20,7 +21,7 @@ FP-Growth is one of the most classical algorithms in the association analysis.An
 <br>
 <br>
 ##Result:##
-if the transaction datasets and min_sup that we input in "\__init__.py" like this:
+If the transaction datasets and min_sup that we input in "\__init__.py" like this:
 ```
 ......
 routines = [    
@@ -32,8 +33,9 @@ routines = [
 min_sup = 2                             # the minimum support count
 ......
 ```
+
 <br>
-then,the result will be:
+Then,the result will be:
 ```
 ('Diaper', 'Beer') : 3
 ('Cola', 'Ham') : 2
