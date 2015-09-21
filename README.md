@@ -4,7 +4,7 @@ FP-Growth is one of the most classical algorithms in the association analysis.An
 <br>
 ##Contents:##
 FP_Growth
-  * __init__.py 
+  * \__init__.py 
   * tree_builder.py 
   * tree_building.py 
   * tree_miner.py
